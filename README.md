@@ -1,6 +1,8 @@
-# h9
-
-#h9
-
-
-jhgfds
+------------------------------------------------------------------------------
+							##Social BI - Levi9 Hackathon##
+						  Adalbert Songott
+							Diana Timpau
+						     Ionut Ignat
+							Iulian Prodan
+						     Liviu Botez
+------------------------------------------------------------------------------
