@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "DWH", "DWH\DWH.dtproj", "{9E10E6EE-F344-4B2E-BC0A-6074FC432095}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "DATAMART", "DATAMART\DATAMART.dtproj", "{32E1633B-A892-4413-9EF7-7A87DEF09B6A}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "STAGING", "STAGING\STAGING.dtproj", "{A708CBAC-A633-4E13-9A56-BBBAE75C1401}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E10E6EE-F344-4B2E-BC0A-6074FC432095}.Development|Default.ActiveCfg = Development
+		{9E10E6EE-F344-4B2E-BC0A-6074FC432095}.Development|Default.Build.0 = Development
+		{32E1633B-A892-4413-9EF7-7A87DEF09B6A}.Development|Default.ActiveCfg = Development
+		{32E1633B-A892-4413-9EF7-7A87DEF09B6A}.Development|Default.Build.0 = Development
+		{A708CBAC-A633-4E13-9A56-BBBAE75C1401}.Development|Default.ActiveCfg = Development
+		{A708CBAC-A633-4E13-9A56-BBBAE75C1401}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

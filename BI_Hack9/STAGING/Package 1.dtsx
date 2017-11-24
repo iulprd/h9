@@ -1,0 +1,1025 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/24/2017 4:44:17 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="WIN-LGME1300488"
+  DTS:CreatorName="WIN-LGME1300488\Administrator"
+  DTS:DTSID="{8AA13EFA-BF90-45F7-9987-9A0C1F2FAC24}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.1000.169"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="33"
+  DTS:VersionGUID="{2F9F1C63-5A3F-4F0E-872C-5A2AE69A8D5B}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
+      DTS:CreationName="EXCEL"
+      DTS:DelayValidation="True"
+      DTS:DTSID="{1D0560EF-4558-4E7C-A316-DB885070BA44}"
+      DTS:ObjectName="Excel Connection Manager">
+      <DTS:PropertyExpression
+        DTS:Name="ExcelFilePath">@[User::PathFileName]</DTS:PropertyExpression>
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=;Extended Properties=&quot;EXCEL 8.0;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:PackageParameters>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="3"
+      DTS:DTSID="{5113319F-B455-44CA-A5CD-37D20CCD2F81}"
+      DTS:ObjectName="ProcessRunID">
+      <DTS:Property
+        DTS:DataType="3"
+        DTS:Name="ParameterValue">0</DTS:Property>
+    </DTS:PackageParameter>
+  </DTS:PackageParameters>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{297DA6A3-A907-4791-BA70-C6A9CD9FCF01}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="getdate()"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="CurrentDateTime">
+      <DTS:VariableValue
+        DTS:DataType="7">11/24/2017 8:31:08 AM</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{2820B314-DA8B-47FD-813D-44226BD35ACC}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="ErrorDescription">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{BFBD4152-C13F-47E5-8F13-58F148ECD3D8}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="ETLPackageID">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{4B8151EB-17E3-4751-8BA7-00868068C972}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="ETLProcessRunID">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{B5A60E21-DDA0-4119-9768-DFA770CD0DB3}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="@[User::NrOfRec]+ @[User::NrOfRecIntermediate]"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="NrOfRec">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{98C55E7D-428B-49A7-822F-872729FBFEC3}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="NrOfRecIntermediate">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{7581AFF6-9963-4BD1-A3A4-B2B7DE6E2777}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="PathFileName">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Clean Staging Table"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{7CABC016-A0FD-4C72-96D5-7E4E24945138}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Clean Staging Table"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{F9065364-9C8E-471C-A6B3-7FD88191BF46}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE dbo.LinkedIn_Updates" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Foreach Loop Container"
+      DTS:CreationName="STOCK:FOREACHLOOP"
+      DTS:Description="Foreach Loop Container"
+      DTS:DTSID="{7B09436B-12D1-489C-8174-CC54ACD89F4F}"
+      DTS:ExecutableType="STOCK:FOREACHLOOP"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Foreach Loop Container">
+      <DTS:ForEachEnumerator
+        DTS:CreationName="Microsoft.ForEachFileEnumerator"
+        DTS:DTSID="{30A66FA4-B530-472A-8B8D-8CE73C220E3C}"
+        DTS:ObjectName="{30A66FA4-B530-472A-8B8D-8CE73C220E3C}">
+        <DTS:PropertyExpression
+          DTS:Name="Directory">@[$Project::strFolderLinkedIn]</DTS:PropertyExpression>
+        <DTS:ObjectData>
+          <ForEachFileEnumeratorProperties>
+            <FEFEProperty
+              Folder="C:\STUFF\Hack9\LinkedIn" />
+            <FEFEProperty
+              FileSpec="*.xls*" />
+            <FEFEProperty
+              FileNameRetrievalType="0" />
+            <FEFEProperty
+              Recurse="-1" />
+          </ForEachFileEnumeratorProperties>
+        </DTS:ObjectData>
+      </DTS:ForEachEnumerator>
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Foreach Loop Container\Load Staging Table"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:DelayValidation="True"
+          DTS:Description="Data Flow Task"
+          DTS:DTSID="{6DC67108-C452-466D-8436-DD346E018E62}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Load Staging Table"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\Foreach Loop Container\Load Staging Table\DestTable"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="DestTable"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[LinkedIn_Updates]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">3</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Connections[OleDbConnection]"
+                      connectionManagerID="{F9065364-9C8E-471C-A6B3-7FD88191BF46}:external"
+                      connectionManagerRefId="Project.ConnectionManagers[STAGING]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].Columns[Impressions]"
+                          cachedDataType="i4"
+                          cachedName="Impressions"
+                          externalMetadataColumnId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[Impressions]"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\65:invalid" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].Columns[Clicks]"
+                          cachedDataType="i4"
+                          cachedName="Clicks"
+                          externalMetadataColumnId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[Clicks]"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\66:invalid" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].Columns[Update Title]"
+                          cachedDataType="nText"
+                          cachedName="Update Title"
+                          externalMetadataColumnId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[UpdateTitle]"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\57:invalid" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].Columns[Update Type]"
+                          cachedDataType="wstr"
+                          cachedLength="255"
+                          cachedName="Update Type"
+                          externalMetadataColumnId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[UpdateType]"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\58:invalid" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].Columns[Campaign Name]"
+                          cachedDataType="wstr"
+                          cachedLength="255"
+                          cachedName="Campaign Name"
+                          externalMetadataColumnId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[CampaignName]"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\59:invalid" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].Columns[Organic Post Date]"
+                          cachedDataType="wstr"
+                          cachedLength="255"
+                          cachedName="Organic Post Date"
+                          externalMetadataColumnId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[OrganicPostDate]"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\60:invalid" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].Columns[First Sponsor Date]"
+                          cachedDataType="wstr"
+                          cachedLength="255"
+                          cachedName="First Sponsor Date"
+                          externalMetadataColumnId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[FirstSponsorDate]"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\61:invalid" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].Columns[Campaign Start Date]"
+                          cachedDataType="wstr"
+                          cachedLength="255"
+                          cachedName="Campaign Start Date"
+                          externalMetadataColumnId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[CampaignStartDate]"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\62:invalid" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].Columns[Campaign End Date]"
+                          cachedDataType="wstr"
+                          cachedLength="255"
+                          cachedName="Campaign End Date"
+                          externalMetadataColumnId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[CampaignEndDate]"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\63:invalid" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].Columns[Organic Audience]"
+                          cachedDataType="wstr"
+                          cachedLength="255"
+                          cachedName="Organic Audience"
+                          externalMetadataColumnId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[OrganicAudience]"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\64:invalid" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].Columns[Click Through Rate]"
+                          cachedDataType="wstr"
+                          cachedLength="255"
+                          cachedName="Click Through Rate"
+                          externalMetadataColumnId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[ClickThroughRate]"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\67:invalid" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].Columns[Total Interactions]"
+                          cachedDataType="i4"
+                          cachedName="Total Interactions"
+                          externalMetadataColumnId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[TotalInteractions]"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\68:invalid" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].Columns[Followers Acquired]"
+                          cachedDataType="i4"
+                          cachedName="Followers Acquired"
+                          externalMetadataColumnId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[FollowersAcquired]"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\69:invalid" />
+                        <inputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].Columns[Engagement Rate]"
+                          cachedDataType="wstr"
+                          cachedLength="255"
+                          cachedName="Engagement Rate"
+                          externalMetadataColumnId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[EngagementRate]"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\70:invalid" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[UpdateTitle]"
+                          dataType="nText"
+                          name="UpdateTitle" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[UpdateType]"
+                          dataType="wstr"
+                          length="255"
+                          name="UpdateType" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[CampaignName]"
+                          dataType="wstr"
+                          length="255"
+                          name="CampaignName" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[OrganicPostDate]"
+                          dataType="wstr"
+                          length="255"
+                          name="OrganicPostDate" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[FirstSponsorDate]"
+                          dataType="wstr"
+                          length="255"
+                          name="FirstSponsorDate" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[CampaignStartDate]"
+                          dataType="wstr"
+                          length="255"
+                          name="CampaignStartDate" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[CampaignEndDate]"
+                          dataType="wstr"
+                          length="255"
+                          name="CampaignEndDate" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[OrganicAudience]"
+                          dataType="wstr"
+                          length="255"
+                          name="OrganicAudience" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[Impressions]"
+                          dataType="i4"
+                          name="Impressions" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[Clicks]"
+                          dataType="i4"
+                          name="Clicks" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[ClickThroughRate]"
+                          dataType="wstr"
+                          length="255"
+                          name="ClickThroughRate" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[TotalInteractions]"
+                          dataType="i4"
+                          name="TotalInteractions" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[FollowersAcquired]"
+                          dataType="i4"
+                          name="FollowersAcquired" />
+                        <externalMetadataColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input].ExternalColumns[EngagementRate]"
+                          dataType="wstr"
+                          length="255"
+                          name="EngagementRate" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\DestTable.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Foreach Loop Container\Load Staging Table\DestTable.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Foreach Loop Container\Load Staging Table\DestTable.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Foreach Loop Container\Load Staging Table\Row Count"
+                  componentClassID="Microsoft.RowCount"
+                  contactInfo="Row Count;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Counts rows as they pass through a data flow. For example, use the number of rows processed to determine whether or not to perform cleanup operations, or update text in an e-mail message to communicate processing status."
+                  name="Row Count">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable to hold the row count."
+                      name="VariableName">User::NrOfRecIntermediate</property>
+                  </properties>
+                  <inputs>
+                    <input
+                      refId="Package\Foreach Loop Container\Load Staging Table\Row Count.Inputs[Row Count Input 1]"
+                      hasSideEffects="true"
+                      name="Row Count Input 1">
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach Loop Container\Load Staging Table\Row Count.Outputs[Row Count Output 1]"
+                      name="Row Count Output 1"
+                      synchronousInputId="Package\Foreach Loop Container\Load Staging Table\Row Count.Inputs[Row Count Input 1]">
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Foreach Loop Container\Load Staging Table\Script Component"
+                  componentClassID="Microsoft.ManagedComponentHost"
+                  contactInfo="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum.;Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;11"
+                  description="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum."
+                  name="Script Component"
+                  version="11">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Stores the source code of the component"
+                      isArray="true"
+                      name="SourceCode"
+                      state="cdata">
+                      <arrayElements
+                        arrayElementCount="0" />
+                    </property>
+                    <property
+                      dataType="System.String"
+                      description="Stores the binary representation of the component"
+                      isArray="true"
+                      name="BinaryCode"
+                      state="cdata">
+                      <arrayElements
+                        arrayElementCount="0" />
+                    </property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the Microsoft Visual Studio Tools for Applications project. Project names must be unique within a package."
+                      name="VSTAProjectName"
+                      typeConverter="NOTBROWSABLE">SC_fd5d8c04850a4854b44544d77454dccf</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the programming language used by the script."
+                      name="ScriptLanguage"
+                      typeConverter="Microsoft.SqlServer.VSTAHosting.ScriptingLanguages">CSharp</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies a comma-separated list of read-only variables."
+                      name="ReadOnlyVariables"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIVariablePickerDlg"></property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies a comma-separated list of read/write variables."
+                      name="ReadWriteVariables"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIWriteableVariablePickerDlg"></property>
+                    <property
+                      dataType="System.String"
+                      description="List of breakpoints present on the script."
+                      isArray="true"
+                      name="BreakpointCollection"
+                      typeConverter="NOTBROWSABLE">
+                      <arrayElements
+                        arrayElementCount="0" />
+                    </property>
+                    <property
+                      dataType="System.String"
+                      description="Checksum to match component metedata against compiled codes."
+                      name="MetadataChecksum140"
+                      typeConverter="NOTBROWSABLE"></property>
+                    <property
+                      dataType="System.String"
+                      name="UserComponentTypeName">Microsoft.ScriptComponentHost</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Foreach Loop Container\Load Staging Table\Script Component.Connections[Connection]"
+                      connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
+                      connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
+                      name="Connection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Foreach Loop Container\Load Staging Table\Script Component.Outputs[Output 0]"
+                      hasSideEffects="true"
+                      name="Output 0">
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\Foreach Loop Container\Load Staging Table.Paths[Row Count Output 1]"
+                  endId="Package\Foreach Loop Container\Load Staging Table\DestTable.Inputs[OLE DB Destination Input]"
+                  name="Row Count Output 1"
+                  startId="Package\Foreach Loop Container\Load Staging Table\Row Count.Outputs[Row Count Output 1]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Foreach Loop Container\Move to Archive"
+          DTS:CreationName="Microsoft.FileSystemTask"
+          DTS:DelayValidation="True"
+          DTS:Description="File System Task"
+          DTS:DTSID="{B79C0B8B-EFB7-42D2-A4C7-7D2A1A249E33}"
+          DTS:ExecutableType="Microsoft.FileSystemTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Move to Archive"
+          DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <FileSystemData
+              TaskOperationType="MoveFile"
+              TaskSourcePath="User::PathFileName"
+              TaskIsSourceVariable="True"
+              TaskDestinationPath="$Project::strFolderLinkedInArchive"
+              TaskIsDestinationVariable="True" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Foreach Loop Container.PrecedenceConstraints[Constraint]"
+          DTS:CreationName=""
+          DTS:DTSID="{55CDB461-301A-4929-BC91-6E956DF8D694}"
+          DTS:From="Package\Foreach Loop Container\Load Staging Table"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint"
+          DTS:To="Package\Foreach Loop Container\Move to Archive" />
+      </DTS:PrecedenceConstraints>
+      <DTS:ForEachVariableMappings>
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{2EC1ADA0-6AE1-48C8-8205-22E5F0C2AD3D}"
+          DTS:ObjectName="{2EC1ADA0-6AE1-48C8-8205-22E5F0C2AD3D}"
+          DTS:ValueIndex="0"
+          DTS:VariableName="User::PathFileName" />
+      </DTS:ForEachVariableMappings>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Metadata Failed"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{A2148AE1-0204-41C0-8346-50D01288810C}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Metadata Failed"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{5174B5C6-FF7E-4470-AC23-980497787F88}"
+          SQLTask:SqlStatementSource="EXEC dbo.SP_ETL_Log_ETLProcessRunEnd ?, ?, ?, ?" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="User::ETLProcessRunID"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="1"
+            SQLTask:DtsVariableName="$Project::StatusFailed"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="129"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="2"
+            SQLTask:DtsVariableName="User::NrOfRec"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="3"
+            SQLTask:DtsVariableName="User::ErrorDescription"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="129"
+            SQLTask:ParameterSize="-1" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Metadata Start"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{62E9D8F9-E460-47A3-8B0B-30CCB66843B0}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Metadata Start"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{5174B5C6-FF7E-4470-AC23-980497787F88}"
+          SQLTask:SqlStatementSource="EXEC dbo.SP_ETL_Log_ETLProcessRunStart @ProcessRunID=?, @ETLPackageID=?, @RunStatus=?, @ETLProcessRunID=? OUTPUT" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="$Package::ProcessRunID"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="1"
+            SQLTask:DtsVariableName="User::ETLPackageID"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="2"
+            SQLTask:DtsVariableName="$Project::StatusStarted"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="129"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="3"
+            SQLTask:DtsVariableName="User::ETLProcessRunID"
+            SQLTask:ParameterDirection="Output"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="-1" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Metadata Success"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{C702E3DF-DCDB-420D-AF70-9B10A6D99AEE}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Metadata Success"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2017 RC1; © 2017 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{5174B5C6-FF7E-4470-AC23-980497787F88}"
+          SQLTask:SqlStatementSource="EXEC dbo.SP_ETL_Log_ETLProcessRunEnd ?, ?, ?, NULL" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="User::ETLProcessRunID"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="1"
+            SQLTask:DtsVariableName="$Project::StatusSuccess"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="129"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="2"
+            SQLTask:DtsVariableName="User::NrOfRec"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="-1" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{F2A41FE2-ECED-4B04-8ECD-D160877EDBEC}"
+      DTS:From="Package\Metadata Start"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Clean Staging Table" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{CFC92B8B-A2EE-4710-B28E-1EB297864641}"
+      DTS:From="Package\Clean Staging Table"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 1"
+      DTS:To="Package\Foreach Loop Container" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{C2188925-7B65-420E-A063-0815FDC916D6}"
+      DTS:From="Package\Foreach Loop Container"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 2"
+      DTS:To="Package\Metadata Success" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{3C1DC7FD-9D78-4EB7-B7C1-E21FADB78CBD}"
+      DTS:From="Package\Foreach Loop Container"
+      DTS:ObjectName="Constraint 3"
+      DTS:To="Package\Metadata Failed"
+      DTS:Value="1" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{5CED9024-1035-43D1-99C0-8BD7584B53AC}"
+      DTS:From="Package\Clean Staging Table"
+      DTS:ObjectName="Constraint 4"
+      DTS:To="Package\Metadata Failed"
+      DTS:Value="1" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Clean Staging Table"
+          TopLeft="219.5,107.5" />
+        <NodeLayout
+          Size="169,42"
+          Id="Package\Foreach Loop Container\Load Staging Table"
+          TopLeft="5.50000000000001,5.5" />
+        <NodeLayout
+          Size="154,42"
+          Id="Package\Foreach Loop Container\Move to Archive"
+          TopLeft="11,107.5" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint]"
+          TopLeft="89,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="180,205"
+          Size="180,248"
+          Id="Package\Foreach Loop Container"
+          TopLeft="65,209.5" />
+        <NodeLayout
+          Size="154,42"
+          Id="Package\Metadata Failed"
+          TopLeft="229,517.5" />
+        <NodeLayout
+          Size="149,42"
+          Id="Package\Metadata Start"
+          TopLeft="231.5,5.5" />
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Metadata Success"
+          TopLeft="5.50000000000006,517.5" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="306,47.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="278.5,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-123.5,60"
+              Start="0,0"
+              End="-123.5,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.3298969072165" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.3298969072165"
+                    Point2="0,24.3298969072165"
+                    Point3="-4,24.3298969072165" />
+                  <mssgle:LineSegment
+                    End="-119.5,24.3298969072165" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-119.5,24.3298969072165"
+                    Point2="-123.5,24.3298969072165"
+                    Point3="-123.5,28.3298969072165" />
+                  <mssgle:LineSegment
+                    End="-123.5,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="126.333333333333,457.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-39.3333333333333,60"
+              Start="0,0"
+              End="-39.3333333333333,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.3171806167401" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.3171806167401"
+                    Point2="0,24.3171806167401"
+                    Point3="-4,24.3171806167401" />
+                  <mssgle:LineSegment
+                    End="-35.3333333333333,24.3171806167401" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-35.3333333333333,24.3171806167401"
+                    Point2="-39.3333333333333,24.3171806167401"
+                    Point3="-39.3333333333333,28.3171806167401" />
+                  <mssgle:LineSegment
+                    End="-39.3333333333333,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="183.666666666667,457.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="98.0000000000001,60"
+              Start="0,0"
+              End="98.0000000000001,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.9450472030435" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.9450472030435"
+                    Point2="0,29.9450472030435"
+                    Point3="4,29.9450472030435" />
+                  <mssgle:LineSegment
+                    End="94.0000000000001,29.9450472030435" />
+                  <mssgle:CubicBezierSegment
+                    Point1="94.0000000000001,29.9450472030435"
+                    Point2="98.0000000000001,29.9450472030435"
+                    Point3="98.0000000000001,33.9450472030435" />
+                  <mssgle:LineSegment
+                    End="98.0000000000001,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="33.75865234375,34.9450472030435,30.4826953125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="331.916666666667,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,368"
+              Start="0,0"
+              End="0,360.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,360.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-15.24134765625,175.37548828125,30.4826953125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Foreach Loop Container\Load Staging Table">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="130,42"
+          Id="Package\Foreach Loop Container\Load Staging Table\Row Count"
+          TopLeft="10,107.5" />
+        <NodeLayout
+          Size="126,42"
+          Id="Package\Foreach Loop Container\Load Staging Table\DestTable"
+          TopLeft="12,209.5" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Container\Load Staging Table.Paths[Row Count Output 1]"
+          TopLeft="75,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-8,18.25,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Foreach Loop Container\Load Staging Table\Script Component"
+          TopLeft="71,21" />
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

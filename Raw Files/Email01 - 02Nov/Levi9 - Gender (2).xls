@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6400</WindowHeight>
+  <WindowWidth>17900</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>140</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="yyyy\-mm\-dd"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="16" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="150" ss:Span="15"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Start rap</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">End rap</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Campaignname</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Gender</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">View</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Result</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Resultindicator</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Reach</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Views</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Cost per Result</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Total spend</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ends on</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Frequency</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Unique Clicks</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Clicks on links</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">477026</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3541489</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4080.56</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">7.4241010000000003</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">16696</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">26356</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Conversies - 2017 - Vacancy 750eu p.m.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">female</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">active</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:offsite_conversion.custom.292300837915519</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">19485</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">86416</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">8.4231820000000006</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">185.31</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.4350009999999997</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">563</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">765</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Conversies - 2017 - Vacancy 750eu p.m.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">unknown</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">active</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">720</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3622</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">7.17</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5.0305559999999998</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Conversies - 2017 - Vacancy 750eu p.m.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">male</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">active</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:offsite_conversion.custom.292300837915519</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">48760</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">237178</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5.8091359999999996</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">470.54</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.8641920000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1267</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1819</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - 2017 - Vacancy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">female</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">7778</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">177498</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1037140</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.14862300000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1155.99</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5.843108</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5048</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">7778</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - 2017 - Vacancy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">male</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">15821</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">261515</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2155231</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.141682</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2241.5500000000002</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">8.2413279999999993</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">10440</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">15821</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - 2017 - Vacancy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">unknown</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">143</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2813</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">21901</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.13986000000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">7.7856379999999996</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">143</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <LeftColumnVisible>8</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>11</ActiveCol>
+     <RangeSelection>R3C12:R8C12</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

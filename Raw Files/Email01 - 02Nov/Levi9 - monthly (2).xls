@@ -1,0 +1,993 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10240</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="yyyy\-mm\-dd"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="16" ss:ExpandedRowCount="50" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="150" ss:Span="15"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Start rap</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">End rap</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Name ad set</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">View</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Result</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Resultindicator</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Reach</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Views</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Cost per result</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Budget</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Total spend</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ends on</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Starts on</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Frequency</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Unique clicks</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Clicks on button</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">23744</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">441825</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3214273</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.14393300000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3417.54</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">7.274991</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">15568</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">4768</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Romania - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">225</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">19302</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">26689</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.10133300000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">22.8</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.382706</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">202</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-07-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Serbia</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">639</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">9147</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">226644</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.14226900000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">90.91</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">24.77796</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">509</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">77</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-06-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-06-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing ukraine</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">419</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5464</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">55384</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.313556</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">131.38</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10.136164000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">367</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">115</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-07-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing ukraine</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">451</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">6211</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">112163</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.30319299999999999</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">136.74</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">18.058767</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">342</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">106</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-08-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-08-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing ukraine</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">204</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">4667</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">26114</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.21333299999999999</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">43.52</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5.5954569999999997</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">160</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">54</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-09-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-09-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing ukraine</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing ukraine</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Serbia</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">225</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">4400</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11045</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.101422</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">22.82</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.510227</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">201</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">48</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-04-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-04-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Serbia</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">792</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">7320</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">109097</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.17214599999999999</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">136.34</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">14.903962</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">646</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">174</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-05-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-05-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Serbia</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-06-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-06-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Serbia</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">804</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8824</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">118291</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.16123100000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">129.63</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">13.405597999999999</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">666</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">158</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-08-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-08-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Serbia</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">349</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">7743</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">66224</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.122292</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">42.68</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">8.5527569999999997</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">304</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">46</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-04-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-04-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing ukraine</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">410</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3925</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">39751</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.33273200000000003</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">136.41999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10.127643000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">352</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">114</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-09-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-09-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Serbia</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Serbia</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Romania</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">159</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1818</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5682</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.14113200000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">22.44</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.125413</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">147</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">24</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-04-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-04-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Romania</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">446</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2717</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">46549</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.309305</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">137.94999999999999</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">17.132498999999999</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">331</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">49</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-05-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-05-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Romania</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-06-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-06-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Romania</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">462</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3564</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">66740</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.27865800000000002</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">128.74</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">18.726150000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">364</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">96</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-07-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Romania</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">285</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3830</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">148075</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.31866699999999998</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">90.82</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">38.661879999999996</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">232</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">28</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-08-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-08-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Romania</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">189</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3277</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">32179</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.23211599999999999</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">43.87</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9.8196519999999996</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">166</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-09-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-09-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Romania</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-05-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-05-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing ukraine</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing ukraine</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">135</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">4505</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.17111100000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">23.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.1170110000000002</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">127</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">39</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-04-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-04-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Romania - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1182</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">91137</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">170180</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.11555799999999999</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">136.59</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.867299</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1071</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-06-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-06-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Serbia - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1158</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">43984</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">175716</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.11298800000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">130.84</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.9949979999999998</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">997</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">149</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-05-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-05-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Romania - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-06-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-06-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Romania - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1032</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">48311</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">120705</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.127248</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">131.32</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.4984989999999998</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">888</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">103</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-07-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Romania - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1205</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">44340</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">127533</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.11333600000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">136.57</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.876252</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">995</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">117</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-08-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-08-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Romania - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1833</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">57805</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">187939</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.111735</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">204.81</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.2512590000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1424</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">163</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-09-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-09-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Romania - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">750</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">30602</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">73173</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.112053</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">84.04</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.3911180000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">598</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">79</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Romania - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Serbia - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">276</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">21947</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">30814</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">8.3696000000000007E-2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">23.1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.4040189999999999</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">261</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">35</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-04-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-04-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Serbia - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1376</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">76550</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">205053</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9.9041000000000004E-2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">136.28</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.6786810000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1181</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">164</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-05-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-05-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Serbia - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-07-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Serbia - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1453</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">40019</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">195739</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.106339</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">154.51</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.8911519999999999</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1161</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">243</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Ukraine - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-08-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-08-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Serbia - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1821</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">47291</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">257730</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.108874</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">198.26</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5.4498740000000003</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1413</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">273</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-09-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-09-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Serbia - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">783</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">30930</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">105137</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.107561</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">84.22</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.3991920000000002</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">670</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">119</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Serbia - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Ukraine - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">192</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">24422</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">36233</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.120156</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">23.07</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.4836210000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">180</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-04-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-04-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Ukraine - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">816</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">76883</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">166172</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.168076</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">137.15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.161362</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">766</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">98</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-05-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-05-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Ukraine - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-06-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-06-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Ukraine - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">742</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">38054</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">76477</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.17496</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">129.82</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.0096970000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">624</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">239</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-07-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-07-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Ukraine - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1072</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">32716</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">67903</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.12870300000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">137.97</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.075529</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">603</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">730</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-08-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-08-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Ukraine - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1243</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">35578</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">82968</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.128914</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">160.24</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2.3320029999999998</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">717</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">714</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-09-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-09-30T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Ukraine - Vacancies</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not_delivering</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">616</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">21838</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">39669</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.111347</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">68.59</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.816513</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">437</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">269</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Remarketing - Romania</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-03-27T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <LeftColumnVisible>9</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>11</ActiveCol>
+     <RangeSelection>R3C12:R50C12</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,362 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10240</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="yyyy\-mm\-dd"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="16" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="150" ss:Span="15"/>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Start rap</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">End rap</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Campaignname</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Age</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">View</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Result</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Resultindicator</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Reach</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Views</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Cost per result</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Total spend</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ends on</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Frequency</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Unique clicks</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Clicks on links</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">477026</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3541489</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4080.56</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">7.4241010000000003</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">16696</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">26356</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Conversies - 2017 - Vacancy 750eu p.m.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">25-34</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">active</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:offsite_conversion.custom.292300837915519</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">39193</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">191525</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5.7452240000000003</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">384.93</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.8867139999999996</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1031</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1451</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Conversies - 2017 - Vacancy 750eu p.m.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">35-44</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">active</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:offsite_conversion.custom.292300837915519</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">12974</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">47574</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6.5238889999999996</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">117.43</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.6668720000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">368</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">505</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Conversies - 2017 - Vacancy 750eu p.m.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">55-64</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">active</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">96</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">424</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4.4166670000000003</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Conversies - 2017 - Vacancy 750eu p.m.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">18-24</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">active</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:offsite_conversion.custom.292300837915519</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">16397</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">85426</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">9.6787500000000009</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">154.86000000000001</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5.2098550000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">430</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">624</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Conversies - 2017 - Vacancy 750eu p.m.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">65+</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">active</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:offsite_conversion.custom.292300837915519</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">96</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">835</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.46</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1.46</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">8.6979170000000003</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - Conversies - 2017 - Vacancy 750eu p.m.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">45-54</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">active</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:offsite_conversion.custom.292300837915519</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">208</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1433</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.67</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.67</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6.8894229999999999</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - 2017 - Vacancy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">35-44</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">7281</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">156525</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">841807</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.13341800000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">971.42</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5.3780989999999997</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">4808</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">7281</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - 2017 - Vacancy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">55-64</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5022</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.174286</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">7.32</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">39.234375</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - 2017 - Vacancy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">18-24</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">4917</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">76856</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">841519</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.15098200000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">742.38</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">10.949294999999999</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3400</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">4917</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - 2017 - Vacancy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">25-34</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11245</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">207294</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1495633</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.14626900000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1644.79</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">7.215033</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">7232</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11245</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - 2017 - Vacancy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">45-54</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">211</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">895</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">21667</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.20488200000000001</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">43.23</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">24.208939000000001</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">96</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">211</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - 2017 - Vacancy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">65+</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">actions:link_click</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8619</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.18260899999999999</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">8.4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">67.335937999999999</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">2017-10-31T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LeviNine - 2017 - Vacancy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">13-17</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">inactive</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Running</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <LeftColumnVisible>8</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>11</ActiveCol>
+     <RangeSelection>R3C12:R15C12</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

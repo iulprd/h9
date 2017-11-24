@@ -1,0 +1,23 @@
+From: Rene Boer <rene@jalt.nl>
+Sent: Friday, November 3, 2017 3:30 PM
+To: Daniel Capitanu
+Cc: Anca Topor; gijs@jalt.nl
+Subject: Re: Social Media & Hack9 
+ 
+Hi Daniel, 
+
+Good news just before the weekend. My colleague Gijs has found a way to export data from the Levi9 page. We have done so for four pages (Levi9, Levi9 Romania, Levi9 Ukraine and Levi9 Serbia).
+
+Attached you will find the data on page and post level for every country. I have exported data from the last 180 days, because we can only export data for a timeframe of 180 days.
+
+I have added the names per country in the file name otherwise I don't think you would know which file belonged to which country. If anything is unclear or you have other questions let me know!
+
+I hope this gives you some extra data for the event, for now have a good weekend!
+
+
+
+
+Met vriendelijke groet,
+
+Rene Boer
+Jalt - Creative. Data. Social.
